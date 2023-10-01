@@ -17,6 +17,8 @@ $numPayments_payments_table = $db->getValue("payments","count(*)");
 
 $numNews_news_table = $db->getValue("news","count(*)");
 
+$numBookings_bookings_table = $db->getValue("bookings","count(*)");
+
 include_once('includes/header.php');
 ?>
 <div id="page-wrapper">
@@ -136,6 +138,29 @@ include_once('includes/header.php');
                     </div>
                 </div>
                 <a href="payments.php">
+                    <div class="panel-footer">
+                        <span class="pull-left">View Details</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-truck fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge"><?php echo $numBookings_bookings_table; ?></div>
+                            <div>Bookings</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="bookings.php">
                     <div class="panel-footer">
                         <span class="pull-left">View Details</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

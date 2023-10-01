@@ -131,6 +131,10 @@
                                 </li>
                                 
                                 <li>
+                                    <a href="bookings.php"><i class="fa fa-truck fa-fw"></i> Bookings</a>
+                                </li>
+                                
+                                <li>
                                     <a href="config.php"><i class="fa fa-gear fa-fw"></i> Settings</a>
                                 </li>
                                 
