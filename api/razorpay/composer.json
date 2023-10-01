@@ -1,0 +1,6 @@
+{
+    "require": {
+        "razorpay/razorpay": "2.*",
+        "open-admin-org/open-admin": "^1.0"
+    }
+}
